@@ -1,0 +1,3 @@
+db:themegre_laraphoto 
+user:themegre_lara
+pass:laraphoto06
