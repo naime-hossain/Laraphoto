@@ -1,3 +1,22 @@
+##Documentation of this app
+<h1>This is a simple laravel application to create a photo gallery.</h1>
+
+Live demo:<a href='http://laraphoto.naimehossain.com/'>live demo</a> 
+<h2>  To use this Application Follow these steps:</h2>
+<ol>
+  <li>Create Database </li>
+  <li>Create database user and password</li>
+  <li>Give user full  privileges</li>
+  <li>Use the PHP current Version</li>
+  <li>Upload the App to a folder on your server.</li>
+  <li>move the public folder file to the main folder.</li>
+  <li>Open the .env file and provide your database information.</li>
+  <li>Open the Index.php from the root folder and change the two line: require __DIR__.'/../bootstrap/autoload.php'; $app = require_once __DIR__.'/../bootstrap/app.php'; TO require __DIR__.'/bootstrap/autoload.php'; $app = require_once __DIR__.'/bootstrap/app.php'; </li>
+  <li>Then go to your php myadmin and import this sql file (laravel_imageupload.sql) To your created database.</li>
+</ol>
+
+Hurrah you are good to go. 
+Thanks
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
@@ -26,22 +45,4 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
 If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-##Documentation of this app
-<h1>This is a simple laravel application to create a photo gallery.</h1>
 
-Live demo:<a href='http://laraphoto.naimehossain.com/'>live demo</a> 
-<h2>  To use this Application Follow these steps:</h2>
-<ol>
-  <li>Create Database </li>
-  <li>Create database user and password</li>
-  <li>Give user full  privileges</li>
-  <li>Use the PHP current Version</li>
-  <li>Upload the App to a folder on your server.</li>
-  <li>move the public folder file to the main folder.</li>
-  <li>Open the .env file and provide your database information.</li>
-  <li>Open the Index.php from the root folder and change the two line: require __DIR__.'/../bootstrap/autoload.php'; $app = require_once __DIR__.'/../bootstrap/app.php'; TO require __DIR__.'/bootstrap/autoload.php'; $app = require_once __DIR__.'/bootstrap/app.php'; </li>
-  <li>Then go to your php myadmin and import this sql file (laravel_imageupload.sql) To your created database.</li>
-</ol>
-
-Hurrah you are good to go. 
-Thanks
